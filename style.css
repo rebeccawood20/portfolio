@@ -1,0 +1,216 @@
+
+
+/*Global*/
+
+
+.container {
+  margin:0 auto; /* this will center the page */
+  width: 900px; /*  use your width here */
+  margin-top: 150px;
+}
+
+a {
+  text-decoration: none;
+  font-family: "Roboto";
+  font-weight: "bold";
+  padding-right: 20px;
+  font-size: 17px;
+  font-weight: lighter;
+}
+
+a:active {
+font-weight: bolder;
+}
+
+
+p {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Roboto-Light";
+}
+
+h1 {
+  font-size: 70px;
+  line-height: 85px;
+  font-family: "Roboto";
+  font-weight: lighter;
+}
+
+h2 {
+  font-family: "Roboto";
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Roboto";
+  font-size: 20px;
+  line-height: 20px;
+  font-weight: normal;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: normal;
+}
+
+footer {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  color: grey;
+}
+
+
+/*Header*/
+
+.navigation {
+margin-bottom: 120px;
+}
+
+
+.headertitle {
+margin-bottom: 55px;
+}
+
+
+.headerdescription {
+margin-bottom: 150px;
+}
+
+
+
+
+/*Projects*/
+
+.grid
+ {
+  display: grid;
+  grid-template-columns: repeat(2,450px);  /* 2 columns */
+  grid-template-rows: repeat(3,550px); /* 3 rows  */
+  grid-gap: 150px 20px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
+  margin-bottom: 150px;
+}
+
+.grid-item {
+  padding: 0px;
+  margin: 0px;
+}
+
+.project:hover {
+  background-color: black;
+  opacity: 0.4;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*Contact Page*/
+
+
+.contactdescription {
+  margin-bottom: 120px;
+}
+
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 0px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 12px; /* Add a top margin */
+  margin-bottom: 45px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+  font-family: "Roboto";
+  font-size: 15px;
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: black;
+  color: white;
+  font-size: 16px;
+  padding: 20px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: grey;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: white;
+  padding: 0px;
+  margin-bottom: 150px;
+}
+
+label {
+  font-family: "Roboto";
+  font-size: 17px;
+  font-weight: bold;
+}
+
+textarea {
+  margin-bottom: 40px;
+}
+
+input {
+  margin-bottom: 40px;
+}
+
+
+
+
+/*About Page*/
+
+.abouttitle {
+  margin-bottom: 80px;
+}
+
+.aboutimage {
+  margin-bottom: 80px;
+}
+
+.aboutbody {
+  margin-bottom: 400px;
+}
+
+
+
+/*Global for all project pages*/
+
+
+
+button {
+  background-color: black;
+  padding: 5px;
+  color: white;
+  font-family: "Roboto";
+  padding: 20px;
+  font-size: 16px;
+  border: 0px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.brief {
+  margin-top: 50px;
+}
+
+
+/*Rightmove project specific*/
