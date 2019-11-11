@@ -2,17 +2,17 @@
 
 /*Global*/
 
-
 .container {
   margin:0 auto; /* this will center the page */
   width: 900px; /*  use your width here */
   margin-top: 150px;
+  opacity: 100%;
 }
 
 a {
   text-decoration: none;
-  font-family: "Roboto";
-  font-weight: "bold";
+  font-family: "SF Pro Display";
+  font-weight: bold;
   padding-right: 20px;
   font-size: 17px;
   font-weight: lighter;
@@ -26,41 +26,42 @@ font-weight: bolder;
 p {
   font-size: 16px;
   line-height: 30px;
-  font-family: "Roboto-Light";
+  font-family: "SF Pro Text";
+  font-weight: lighter;
 }
 
 h1 {
   font-size: 70px;
   line-height: 85px;
-  font-family: "Roboto";
-  font-weight: lighter;
+  font-family: "SF Pro Display";
+  font-weight: bold;
 }
 
 h2 {
-  font-family: "Roboto";
+  font-family: "SF Pro Display";
   font-size: 25px;
   line-height: 20px;
   font-weight: normal;
 }
 
 h3 {
-  font-family: "Roboto";
+  font-family: "SF Pro Display";
   font-size: 20px;
   line-height: 20px;
   font-weight: normal;
 }
 
 h4 {
-  font-family: "Roboto";
-  font-size: 16px;
-  line-height: 16px;
+  font-family: "SF Pro Display";
+  font-size: 15px;
+  line-height: 15px;
+  color: grey;
   font-weight: normal;
 }
 
 footer {
   margin-top: 50px;
-  margin-bottom: 0px;
-  color: yellow;
+  margin-bottom: 0px;  
 }
 
 
@@ -89,7 +90,7 @@ margin-bottom: 150px;
  {
   display: grid;
   grid-template-columns: repeat(2,450px);  /* 2 columns */
-  grid-template-rows: repeat(3,550px); /* 3 rows  */
+  grid-template-rows: repeat(3,590px); /* 3 rows  */
   grid-gap: 150px 20px; /* 50 pixels of space added between rows and 30 pixels added between columns  */
   margin-bottom: 150px;
 }
@@ -100,9 +101,14 @@ margin-bottom: 150px;
 }
 
 .project:hover {
-  background-color: black;
+  background-color: white;
   opacity: 0.4;
+  transition: .3s ease;
+  z-index: 1;
+
 }
+
+
 
 
 
