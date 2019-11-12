@@ -5,17 +5,15 @@
 .container {
   margin:0 auto; /* this will center the page */
   width: 900px; /*  use your width here */
-  margin-top: 150px;
-  opacity: 100%;
+  margin-top: 100px;
 }
 
 a {
   text-decoration: none;
   font-family: "SF Pro Display";
-  font-weight: bold;
+  font-weight: normal;
   padding-right: 20px;
   font-size: 17px;
-  font-weight: lighter;
 }
 
 a:active {
@@ -41,7 +39,8 @@ h2 {
   font-family: "SF Pro Display";
   font-size: 25px;
   line-height: 20px;
-  font-weight: normal;
+  font-weight: bolder;
+  margin-bottom: 30px;
 }
 
 h3 {
@@ -61,7 +60,7 @@ h4 {
 
 footer {
   margin-top: 50px;
-  margin-bottom: 0px;  
+  margin-bottom: 0px;
 }
 
 
@@ -83,7 +82,6 @@ margin-bottom: 150px;
 
 
 
-
 /*Projects*/
 
 .grid
@@ -98,10 +96,11 @@ margin-bottom: 150px;
 .grid-item {
   padding: 0px;
   margin: 0px;
+  opacity: 100%;
 }
 
 .project:hover {
-  background-color: white;
+  background-color: black;
   opacity: 0.4;
   transition: .3s ease;
   z-index: 1;
@@ -109,14 +108,15 @@ margin-bottom: 150px;
 }
 
 
+.aboutprofile {
+  margin-top: 40px;
+}
 
 
 
-
-
-
-
-
+.aboutexperience {
+margin-top: 80px;
+}
 
 
 
@@ -201,7 +201,6 @@ input {
 /*Global for all project pages*/
 
 
-
 button {
   background-color: black;
   padding: 5px;
@@ -216,6 +215,7 @@ button {
 
 .brief {
   margin-top: 50px;
+  background-color: white;
 }
 
 
