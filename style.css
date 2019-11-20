@@ -8,12 +8,13 @@
   margin-top: 100px;
 }
 
+
 a {
   text-decoration: none;
-  font-family: "Source sans pro";
-  font-weight: normal;
+  font-family: "Inter";
+  font-weight: 400;
   padding-right: 20px;
-  font-size: 17px;
+  font-size: 16px;
   color: black;
 }
 
@@ -23,47 +24,54 @@ color: grey;
 
 
 p {
-  font-size: 16px;
+  font-size: 15px;
   line-height: 30px;
-  font-family: "Source sans pro";
+  font-family: "Inter";
+  font-weight: 400;
 }
 
 h1 {
-  font-size: 70px;
-  line-height: 85px;
-  font-family: "Roboto";
-  font-weight: regular;
+  font-size: 45px;
+  line-height: 60px;
+  font-family: "Inter";
+  font-weight: 700;
 }
 
 h2 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "BlinkMacSystemFont";
   font-size: 45px;
   line-height: 20px;
   font-weight: bolder;
   margin-bottom: 30px;
+  letter-spacing: 0.4px;
 }
 
 h3 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "BlinkMacSystemFont";
   font-size: 25px;
   line-height: 20px;
   font-weight: bolder;
+  letter-spacing: 0.4px;
 }
 
+
 h4 {
-  font-family: "Roboto";
-  font-size: 20px;
+  font-family: "Inter";
+  font-weight: 600;
+  font-size: 19px;
   line-height: 15px;
   color: black;
-  font-weight: bolder;
+  letter-spacing: 0px;
 }
 
 h5 {
-  font-family: "Source sans pro";
-  font-size: 16px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 15px;
   line-height: 15px;
   color: grey;
   font-weight: normal;
+  letter-spacing: 0px;
 }
 
 footer {
@@ -74,7 +82,7 @@ button {
   background-color: black;
   padding: 5px;
   color: white;
-  font-family: "Roboto";
+  font-family: "Inter";
   padding: 20px;
   font-size: 16px;
   border: 0px;
@@ -82,6 +90,12 @@ button {
   margin-top: 30px;
   margin-bottom: 60px;
 }
+
+button:hover {
+  padding: 30px;
+  transition: .3s ease-in-out;
+}
+
 
 /*Header*/
 
@@ -91,14 +105,12 @@ margin-bottom: 120px;
 
 
 .headertitle {
-margin-bottom: 55px;
+margin-bottom: 40px;
 }
-
 
 .headerdescription {
-margin-bottom: 150px;
+margin-bottom: 125px;
 }
-
 
 
 /*Projects*/
@@ -121,21 +133,21 @@ margin-bottom: 150px;
 .project:hover {
   background-color: black;
   opacity: 0.4;
-  transition: .3s ease;
+  transition: .3s ease-in-out;
   z-index: 1;
-
-}
-
-
-.aboutprofile {
-  margin-top: 40px;
 }
 
 
 
-.aboutexperience {
-margin-top: 80px;
-}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -157,8 +169,10 @@ input[type=text], select, textarea {
   margin-top: 12px; /* Add a top margin */
   margin-bottom: 45px; /* Bottom margin */
   resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-  font-family: "Source sans pro";
+  font-family: "Inter";
+  font-weight: 400;
   font-size: 15px;
+  letter-spacing: 0.4
 }
 
 /* Style the submit button with a specific background color etc */
@@ -185,9 +199,10 @@ input[type=submit]:hover {
 }
 
 label {
-  font-family: "Roboto";
+  font-family: "Inter";
   font-size: 17px;
-  font-weight: bold;
+  font-weight: 700;
+  letter-spacing: 0px;
 }
 
 textarea {
@@ -215,6 +230,25 @@ input {
   margin-bottom: 400px;
 }
 
+.aboutprofile {
+  margin-top: 40px;
+}
+
+.aboutexperience {
+margin-top: 80px;
+}
+
+.right-content {
+  width: 50%;
+}
+
+.left-content {
+  width: 50%;
+}
+
+
+
+
 
 
 /*Global for all project pages*/
@@ -223,6 +257,12 @@ input {
 .brief {
   margin-top: 50px;
   background-color: white;
+}
+
+.projectimage {
+  height: 50%;
+  width: 100%;
+  background-color: red;
 }
 
 
