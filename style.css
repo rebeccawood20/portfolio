@@ -8,7 +8,6 @@
   margin-top: 100px;
 }
 
-
 a {
   text-decoration: none;
   font-family: "Inter";
@@ -31,26 +30,26 @@ p {
 }
 
 h1 {
-  font-size: 45px;
+  font-size: 40px;
   line-height: 60px;
   font-family: "Inter";
-  font-weight: 700;
+  font-weight: 600;
 }
 
 h2 {
-  font-family: "BlinkMacSystemFont";
-  font-size: 45px;
+  font-family: "Inter";
+  font-size: 30px;
   line-height: 20px;
-  font-weight: bolder;
+  font-weight: 600;
   margin-bottom: 30px;
   letter-spacing: 0.4px;
 }
 
 h3 {
-  font-family: "BlinkMacSystemFont";
+  font-family: "Inter";
   font-size: 25px;
   line-height: 20px;
-  font-weight: bolder;
+  font-weight: 600;
   letter-spacing: 0.4px;
 }
 
@@ -113,7 +112,11 @@ margin-bottom: 125px;
 }
 
 
-/*Projects*/
+
+
+
+
+
 
 .grid
  {
@@ -134,11 +137,40 @@ margin-bottom: 125px;
   background-color: black;
   opacity: 0.4;
   transition: .3s ease-in-out;
-  z-index: 1;
+  z-index: 5;
 }
 
 
 
+
+
+
+
+
+
+.projectpic {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  background-color: black;
+height: 100%;
+weight: 100%;
+}
+
+.overlay:hover {
+  opacity: 1;
+}
+
+.projectpic:hover {
+  background-color: black;
+  opacity: 0.8;
+  transition: .3 ease;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
 
 
 
@@ -219,15 +251,15 @@ input {
 /*About Page*/
 
 .abouttitle {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .aboutimage {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
-.aboutbody {
-  margin-bottom: 400px;
+.aboutprofile {
+  margin-bottom: 60px;
 }
 
 .aboutprofile {
@@ -238,13 +270,7 @@ input {
 margin-top: 80px;
 }
 
-.right-content {
-  width: 50%;
-}
 
-.left-content {
-  width: 50%;
-}
 
 
 
