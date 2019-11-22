@@ -1,5 +1,19 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Global*/
 
 .container {
@@ -131,46 +145,50 @@ margin-bottom: 125px;
   padding: 0px;
   margin: 0px;
   opacity: 100%;
+  position: relative;
 }
-
-.project:hover {
-  background-color: black;
-  opacity: 0.4;
-  transition: .3s ease-in-out;
-  z-index: 5;
+.grid-item a {
+  padding: 0;
 }
-
-
-
-
-
-
-
-
-
-.projectpic {
+.grid-item a:after {
+    content: "";
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity .25s ease
+    z-index: 1;
+}
+.grid-item a:hover:after,
+.grid-item a:focus:after {
+    opacity: 0.6
+}
+.project {
   width: 100%;
+  object-fit: cover;
   height: 100%;
 }
-
-.overlay {
-  background-color: black;
-height: 100%;
-weight: 100%;
+.projecttext {
+    position: absolute;
+    bottom: 0;
+    padding: 2em;
+    z-index: 100;
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+a:hover .projecttext {
+    opacity: 1;
+}
+.projecttext > * {
+    color: #fff;
 }
 
-.overlay:hover {
-  opacity: 1;
-}
 
-.projectpic:hover {
-  background-color: black;
-  opacity: 0.8;
-  transition: .3 ease;
-  z-index: 1;
-  width: 100%;
-  height: 100%;
-}
+
+
 
 
 
