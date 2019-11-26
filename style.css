@@ -1,9 +1,3 @@
--webkit-font-smoothing: antialiased;
-
-
-
-
-
 /*Global*/
 
 .container {
@@ -95,8 +89,9 @@ button {
 }
 
 button:hover {
-  padding: 30px;
+  background-color: grey;
   transition: .3s ease-in-out;
+  color: white;
 }
 
 
@@ -109,18 +104,13 @@ margin-bottom: 120px;
 
 .headertitle {
 margin-bottom: 40px;
+text-align: center;
 }
 
 .headerdescription {
 margin-bottom: 125px;
+text-align: center;
 }
-
-
-
-
-
-
-
 
 .grid
  {
@@ -137,9 +127,11 @@ margin-bottom: 125px;
   opacity: 100%;
   position: relative;
 }
+
 .grid-item a {
   padding: 0;
 }
+
 .grid-item a:after {
     content: "";
     background: black;
@@ -152,10 +144,14 @@ margin-bottom: 125px;
     transition: opacity .25s ease
     z-index: 1;
 }
+
 .grid-item a:hover:after,
 .grid-item a:focus:after {
-    opacity: 0.6
+    opacity: 0.6;
+    transition: 0.3s ease-in;
+    transition: 0.3s ease-out;
 }
+
 .project {
   width: 100%;
   object-fit: cover;
@@ -193,10 +189,13 @@ a:hover .projecttext {
 
 
 /*Contact Page*/
-
+.contacttitle {
+  text-align: center;
+}
 
 .contactdescription {
   margin-bottom: 120px;
+  text-align: center;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -260,6 +259,7 @@ input {
 
 .abouttitle {
   margin-bottom: 60px;
+  text-align: center;
 }
 
 .aboutimage {
@@ -267,15 +267,43 @@ input {
 }
 
 .aboutprofile {
-  margin-bottom: 60px;
+  margin-bottom: 90px;
 }
 
 .aboutprofile {
-  margin-top: 40px;
+  margin-top: 45px;
 }
 
 .aboutexperience {
-margin-top: 80px;
+margin-top: 90px;
+}
+
+
+
+
+.experiencesection {
+margin-bottom: 310px;
+}
+
+.experience-title {
+float: left;
+width: 20%;
+}
+
+.experience-description {
+    float: right;
+    width: 80%;
+}
+
+
+@media screen and (max-width: 900px) {
+  .experience-title {
+    width: 100%;
+  }
+
+  .experience-description {
+    width: 100%;
+  }
 }
 
 
