@@ -30,7 +30,7 @@ p {
 h1 {
   font-size: 40px;
   line-height: 60px;
-  font-family: "Inter";
+  font-family: "Graphk";
   font-weight: 600;
 }
 
@@ -312,24 +312,66 @@ width: 20%;
 
 
 
-
-
-
-
-
 /*Global for all project pages*/
 
+.projecttitle {
+  text-align: center;
+}
 
-.brief {
-  margin-top: 50px;
-  background-color: white;
+.projectcaption {
+  text-align: center;
+  margin-bottom: 60px;
 }
 
 .projectimage {
   height: 50%;
   width: 100%;
-  background-color: red;
+  margin-bottom: 90px; 
+}
+
+.largersectiontitle {
+  margin-bottom: 70px;
+  margin-top: 70px; 
+}
+
+.subsectiontitle {
+  margin-bottom: 35px;
+}
+
+.projectbody {
+  margin-bottom: 66px; 
+}
+
+ul {
+  list-style-type: bullets;
+  margin: 20px;
+  padding: 0;
+}
+
+li {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Inter";
+  font-weight: 400;
+}
+
+caption {
+  font-size: 15px;
+  line-height: 30px;
+  font-family: "Inter";
+  font-weight: 400;
+  color: grey;
+}
+
+section {
+margin-bottom: 180px;
 }
 
 
-/*Rightmove project specific*/
+
+
+
+
+
+
+
