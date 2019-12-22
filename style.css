@@ -30,7 +30,7 @@ p {
 h1 {
   font-size: 40px;
   line-height: 60px;
-  font-family: "Graphk";
+  font-family: "Inter";
   font-weight: 600;
 }
 
@@ -93,6 +93,8 @@ button:hover {
   transition: .3s ease-in-out;
   color: white;
 }
+
+
 
 
 /*Header*/
@@ -366,6 +368,15 @@ caption {
 section {
 margin-bottom: 180px;
 }
+
+.bottom-links{
+  font-family: "Inter";
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.4px;
+}
+
 
 
 
