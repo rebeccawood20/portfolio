@@ -9,7 +9,7 @@
 a {
   text-decoration: none;
   font-family: "Inter";
-  font-weight: 400;
+  font-weight: 450;
   padding-right: 20px;
   font-size: 16px;
   color: black;
@@ -28,33 +28,33 @@ p {
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 50px;
   line-height: 60px;
-  font-family: "Inter";
-  font-weight: 600;
+  font-family: "SF Pro Display";
+  font-weight: 700;
 }
 
 h2 {
-  font-family: "Inter";
+  font-family: "SF Pro Display";
   font-size: 30px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 30px;
   letter-spacing: 0.4px;
 }
 
 h3 {
-  font-family: "Inter";
+  font-family: "SF Pro Display";
   font-size: 25px;
   line-height: 20px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 0.4px;
 }
 
 
 h4 {
-  font-family: "Inter";
-  font-weight: 600;
+  font-family: "SF Pro Display";
+  font-weight: 700;
   font-size: 19px;
   line-height: 15px;
   color: black;
@@ -62,7 +62,7 @@ h4 {
 }
 
 h5 {
-  font-family: "Inter";
+  font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 15px;
   line-height: 15px;
