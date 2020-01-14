@@ -54,7 +54,7 @@ h3 {
 
 h4 {
   font-family: "SF Pro Display";
-  font-weight: 700;
+  font-weight: 600;
   font-size: 19px;
   line-height: 15px;
   color: black;
@@ -94,6 +94,50 @@ button:hover {
   color: white;
 }
 
+/* Media queries for whole container on all pages */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+.container {
+width: 80%;
+}
+};
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 80%;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 70%;
+  }
+}
+
+
+
+
+
+
+ 
+
 
 
 
@@ -127,6 +171,24 @@ text-align: center;
   padding: 0px;
   margin: 0px;
 }
+
+/* Media queries for grid to work responsively */
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1,450px);  /* 1 columns */
+    grid-template-rows: repeat(5,590px); /* 5 rows  */
+  }
+}
+
+
+@media only screen and (max-width: 600px) {
+  .grid {
+    grid-template-columns: repeat(1,450px);  /* 1 columns */
+    grid-template-rows: repeat(5,590px); /* 5 rows  */
+  }
+}
+
 
 /* 
 .grid-item a {
@@ -189,14 +251,6 @@ img .project {
 
 
 
-
-
-
-
-
-
-
-
 /*Contact Page*/
 .contacttitle {
   text-align: center;
@@ -239,7 +293,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-.container {
+.contactcontainer {
   border-radius: 5px;
   background-color: white;
   padding: 0px;
@@ -262,6 +316,54 @@ input {
 }
 
 
+/* Media queries for contact page heading alignment*/
+
+@media only screen and (max-width: 600px) {
+  .contacttitle{
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contacttitle {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contacttitle {
+    font-size: 50px;
+  }
+} 
+
+
+
+/* Media queries for contact page description text */
+
+@media only screen and (max-width: 600px) {
+  .contactdescriptiontext{
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .contactdescriptiontext{
+    text-align: left; 
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .contactdescriptiontext {
+    
+  }
+} 
+
+
+
+
+
+
+
 
 
 /*About Page*/
@@ -270,6 +372,33 @@ input {
   margin-bottom: 60px;
   text-align: center;
 }
+
+/* Given the big text a class in the h1 to identify it in the media query */
+.abouttitletext {
+  font-size: 50px;
+}
+
+/* Media queries for about page heading alignment and size */
+
+@media only screen and (max-width: 600px) {
+  .abouttitletext {
+    text-align: left;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .abouttitletext {
+    text-align: left;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up)
+@media only screen and (max-width: 992px) {
+  .abouttitletext {
+    font-size: 50px;
+  }
+} */
+
 
 .aboutimage {
   margin-bottom: 60px;
@@ -286,9 +415,6 @@ input {
 .aboutexperience {
 margin-top: 90px;
 }
-
-
-
 
 .experiencesection {
 margin-bottom: 310px;
@@ -383,13 +509,6 @@ margin-bottom: 180px;
   font-weight: 600;
   letter-spacing: 0.4px;
 }
-
-
-
-
-
-
-
 
 
 
