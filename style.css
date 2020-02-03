@@ -41,7 +41,7 @@ a:focus {
   } 
 
 a:active {
-  color: black; 
+  color: black;     
 } 
 
 button {
@@ -67,7 +67,22 @@ button:hover {
 button:focus {
 background-color: #FFDE00;
 color: black; 
+}
 
+.h4link {
+  font-size: 30px;
+  text-decoration: none;
+  font-family: "SF Pro Display";
+  font-weight: 450;
+  padding-right: 20px;
+  font-size: 17px;
+  color: yellow;
+  outline: none;
+  padding: 5px;
+}
+
+.h4link:hover {
+  font-size: 30px;
 }
 
 
@@ -209,6 +224,11 @@ text-align: center;
   margin: 0px;
 }
 
+
+
+
+
+
 /* Media queries for grid to work responsively */
 
 @media only screen and (max-width: 600px) {
@@ -226,63 +246,11 @@ text-align: center;
   }
 }
 
-
-/* 
-.grid-item a {
-  padding: 0;
-} */
-
-/* .grid-item a:after {
-    content: "";
-    background: black;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    opacity: 0;
-    transition: opacity .25s ease
-    z-index: 1;
-}
-
-.grid-item a:hover:after,
-.grid-item a:focus:after {
-    opacity: 0.6;
-    transition: 0.3s ease-in;
-    transition: 0.3s ease-out;
-} */
-
 .project {
   width: 90%;
   object-fit: cover;
   height: 70%;
 }
-
-img .project {
-  will-change: transform; 
-  transition: .25s ease; 
-  transform: scale(.96);
-}
-
-/* .projecttext {
-    position: absolute;
-    bottom: 0;
-    padding: 2em;
-    z-index: 100;
-    opacity: 0;
-    transition: opacity .25s ease;
-} */
-
-/* a:hover .projecttext {
-    opacity: 1;
-}
-.projecttext > * {
-    color: #fff;
-} */
-
-
-
-
 
 
 
@@ -352,7 +320,6 @@ input {
   margin-bottom: 40px;
 }
 
-
 /* Media queries for contact page heading alignment*/
 
 @media only screen and (max-width: 600px) {
@@ -372,8 +339,6 @@ input {
     font-size: 50px;
   }
 } 
-
-
 
 /* Media queries for contact page description text */
 
@@ -481,6 +446,12 @@ width: 20%;
     width: 100%;
   }
 }
+
+
+
+
+
+
 
 
 
