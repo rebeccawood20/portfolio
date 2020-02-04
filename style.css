@@ -146,6 +146,7 @@ footer {
 }
 
 
+
 /* Media queries for whole container on all pages */
 
 /* Extra small devices (phones, 600px and down) */
@@ -184,15 +185,6 @@ width: 80%;
 }
 
 
-
-
-
-
- 
-
-
-
-
 /*Header*/
 
 .navigation {
@@ -202,12 +194,12 @@ margin-bottom: 120px;
 
 .headertitle {
 margin-bottom: 40px;
-text-align: center;
+text-align: left;
 }
 
 .headerdescription {
 margin-bottom: 125px;
-text-align: center;
+text-align: left;
 }
 
 .grid
@@ -222,6 +214,13 @@ text-align: center;
 .grid-item {
   padding: 0px;
   margin: 0px;
+}
+
+
+.project {
+  width: 90%;
+  object-fit: cover;
+  height: 60%;
 }
 
 
@@ -246,11 +245,6 @@ text-align: center;
   }
 }
 
-.project {
-  width: 90%;
-  object-fit: cover;
-  height: 70%;
-}
 
 
 
@@ -258,12 +252,12 @@ text-align: center;
 
 /*Contact Page*/
 .contacttitle {
-  text-align: center;
+  text-align: left;
 }
 
 .contactdescription {
   margin-bottom: 120px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Style inputs with type="text", select elements and textareas */
@@ -372,7 +366,7 @@ input {
 
 .abouttitle {
   margin-bottom: 60px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Given the big text a class in the h1 to identify it in the media query */
@@ -458,11 +452,11 @@ width: 20%;
 /*Global for all project pages*/
 
 .projecttitle {
-  text-align: center;
+  text-align: left;
 }
 
 .projectcaption {
-  text-align: center;
+  text-align: left;
   margin-bottom: 60px;
 }
 
