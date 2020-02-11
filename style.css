@@ -8,13 +8,27 @@
 
 /* Links  */
 
+
+.main-nav {
+    text-decoration: underline;
+    font-family: "SF Pro Display";
+    font-weight: 450;
+    padding-right: 19px;
+    font-size: 20px !important;
+    color: #1D70B8;
+    font-weight: bolder !important;
+    outline: none;
+    padding: 5px;
+}
+
+
 a:link{
-  text-decoration: none;
+  text-decoration: underline;
   font-family: "SF Pro Display";
   font-weight: 450;
   padding-right: 20px;
-  font-size: 17px;
-  color: black;
+  font-size: 19px;
+  color: #1D70B8;
   font-weight: bolder;
   outline: none;
   padding: 5px;
@@ -27,7 +41,7 @@ a:visited {
 } 
 
 a:hover {
-color: #1D70B8;
+color: #17598F;
 text-decoration: underline;
 outline: none;
 } 
@@ -42,48 +56,34 @@ a:focus {
 
 a:active {
   color: black;     
-} 
-
-button {
-  background-color: black;
-  padding: 5px;
-  color: white;
-  font-family: "Inter";
-  padding: 20px;
-  font-size: 16px;
-  border: 0px;
-  margin-right: 30px;
-  margin-top: 30px;
-  margin-bottom: 60px;
-  font-weight: 60%;
-  shadow: black, 3px;
 }
 
-button:hover {
-  background-color: grey;
-  transition: .3s ease-in-out;
-  color: white;
-}
-button:focus {
-background-color: #FFDE00;
-color: black; 
-}
-
-.h4link {
-  font-size: 30px;
-  text-decoration: none;
+.bottom-links{
+  /* font-family: "Inter";
+  font-size: 25px;
+  line-height: 20px;
+  font-weight: 600;
+  letter-spacing: 0.4px; */
+  text-decoration: underline;
   font-family: "SF Pro Display";
   font-weight: 450;
   padding-right: 20px;
-  font-size: 17px;
-  color: yellow;
+  font-size: 25px !important;
+  color: #1D70B8;
+  font-weight: bolder !important;
   outline: none;
   padding: 5px;
+  width: 50%;
 }
 
-.h4link:hover {
-  font-size: 30px;
-}
+
+
+
+
+
+
+
+
 
 
 
@@ -91,17 +91,18 @@ color: black;
 
 
 p {
-  font-size: 16px;
-  line-height: 30px;
+  font-size: 19px;
+  line-height: 39px;
   font-family: "Inter";
   font-weight: 400;
 }
 
 h1 {
-  font-size: 50px;
-  line-height: 60px;
+  font-size: 65px;
+  line-height: 85px;
   font-family: "SF Pro Display";
-  font-weight: 700;
+  font-weight: 650;
+  color: black;
 }
 
 h2 {
@@ -126,15 +127,24 @@ h4 {
   font-family: "SF Pro Display";
   font-weight: 600;
   font-size: 23px;
-  line-height: 15px;
+  line-height: 30px;
   color: black;
   letter-spacing: 0px;
 }
 
 h5 {
   font-family: "SF Pro Display";
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 15px;
+  color: black;
+  letter-spacing: 0px;
+}
+
+h6 {
+  font-family: "SF Pro Display";
   font-weight: 400;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 15px;
   color: grey;
   font-weight: normal;
@@ -187,8 +197,17 @@ width: 80%;
 
 /*Header*/
 
+.header {
+  width: 100%;
+}
+
+.name-top {
+  width: 50%;
+}
+
 .navigation {
-margin-bottom: 120px;
+margin-bottom: 130px;
+width: 50%;
 }
 
 
@@ -198,7 +217,7 @@ text-align: left;
 }
 
 .headerdescription {
-margin-bottom: 125px;
+margin-bottom: 150px;
 text-align: left;
 }
 
@@ -207,7 +226,7 @@ text-align: left;
   display: grid;
   grid-template-columns: repeat(2,450px);  /* 2 columns */
   grid-template-rows: repeat(2,590px); /* 3 rows  */
-  grid-gap: 50px 10px;  
+  grid-gap: 10px 80px;  
   margin-bottom: 150px;
 }
 
@@ -441,6 +460,26 @@ width: 20%;
   }
 }
 
+/* List styling on about page */
+
+dd {
+  margin-left: 170px;
+  padding: 0px;
+  position: relative;
+  bottom: 55px;
+}
+
+/* dl {
+  margin-left: 50px;
+} */
+
+/* dt {
+  margin-left: 50px;
+} */
+
+
+
+
 
 
 
@@ -504,13 +543,7 @@ section {
 margin-bottom: 180px;
 }
 
-.bottom-links{
-  font-family: "Inter";
-  font-size: 25px;
-  line-height: 20px;
-  font-weight: 600;
-  letter-spacing: 0.4px;
-}
+
 
 
 
