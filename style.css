@@ -93,7 +93,7 @@ a:active {
 p {
   font-size: 19px;
   line-height: 39px;
-  font-family: "Inter";
+  font-family: "Open Sans";
   font-weight: 400;
 }
 
@@ -142,7 +142,7 @@ h5 {
 }
 
 h6 {
-  font-family: "SF Pro Display";
+  font-family: "Open Sans";
   font-weight: 400;
   font-size: 17px;
   line-height: 15px;
