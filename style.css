@@ -76,32 +76,21 @@ a:active {
   width: 50%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 p {
-  font-size: 19px;
+  font-size: 18px;
   line-height: 39px;
-  font-family: "Open Sans";
+  font-family: "SF Pro Display";
   font-weight: 400;
+  letter-spacing: 0.4px;
+  display: block;
+  color: black
 }
 
 h1 {
   font-size: 65px;
   line-height: 85px;
   font-family: "SF Pro Display";
-  font-weight: 650;
+  font-weight: 800;
   color: black;
 }
 
@@ -142,7 +131,7 @@ h5 {
 }
 
 h6 {
-  font-family: "Open Sans";
+  font-family: "SF Pro Display";
   font-weight: 400;
   font-size: 17px;
   line-height: 15px;
@@ -153,6 +142,21 @@ h6 {
 
 footer {
   margin-top: 150px;
+  padding: 50px;
+  background-color:rgb(235, 235, 235);
+}
+
+button {
+  font-family: "SF Pro Display";
+  font-weight: bold;
+  background-color: #4354FF;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 19px;
 }
 
 
