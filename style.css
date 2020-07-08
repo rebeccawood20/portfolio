@@ -8,17 +8,19 @@
 
 /* Links  */
 
-
 .main-nav {
     text-decoration: underline;
     font-family: "SF Pro Display";
     font-weight: 450;
-    padding-right: 19px;
-    font-size: 20px !important;
-    color: #1D70B8;
+    font-size: 20px;
+    color: #3291e4;
     font-weight: bolder !important;
     outline: none;
-    padding: 5px;
+}
+
+.navigation {
+  width: 70%;
+  margin-bottom: 130px;
 }
 
 
@@ -27,35 +29,35 @@ a:link{
   font-family: "SF Pro Display";
   font-weight: 450;
   padding-right: 20px;
-  font-size: 19px;
-  color: #1D70B8;
+  font-size: 20px;
+  color: #3291e4;
   font-weight: bolder;
   outline: none;
   padding: 5px;
 }
 
-a:visited {
-  color: #4c2c92;
+/* a:visited {
+  color: #693ec4;
   text-decoration: underline;
   outline: none;
-} 
+}  */
 
 a:hover {
-color: #17598F;
+color: #24659d;
 text-decoration: underline;
 outline: none;
 } 
 
-a:focus {
-  color: black;
+a:focus { 
+  color: white;
   text-decoration: none;
   border-bottom: 3px solid;
-  background-color: #FFDE00;
+  background-color: #3291e4;
   outline: none;
   } 
 
 a:active {
-  color: black;     
+  color: white;     
 }
 
 .bottom-links{
@@ -67,9 +69,9 @@ a:active {
   text-decoration: underline;
   font-family: "SF Pro Display";
   font-weight: 450;
-  padding-right: 20px;
+  padding-right: 20px;0
   font-size: 25px !important;
-  color: #1D70B8;
+  color: #3291e4;
   font-weight: bolder !important;
   outline: none;
   padding: 5px;
@@ -77,9 +79,9 @@ a:active {
 }
 
 p {
-  font-size: 18px;
-  line-height: 39px;
-  font-family: "SF Pro Display";
+  font-size: 20px;
+  line-height: 35px;
+  font-family: "Inter UI";
   font-weight: 400;
   letter-spacing: 0.4px;
   display: block;
@@ -87,8 +89,8 @@ p {
 }
 
 h1 {
-  font-size: 65px;
-  line-height: 85px;
+  font-size: 66px;
+  line-height: 95px;
   font-family: "SF Pro Display";
   font-weight: 800;
   color: black;
@@ -96,7 +98,7 @@ h1 {
 
 h2 {
   font-family: "SF Pro Display";
-  font-size: 30px;
+  font-size: 34px;
   line-height: 20px;
   font-weight: 700;
   margin-bottom: 30px;
@@ -105,7 +107,7 @@ h2 {
 
 h3 {
   font-family: "SF Pro Display";
-  font-size: 25px;
+  font-size: 28px;
   line-height: 20px;
   font-weight: 700;
   letter-spacing: 0.4px;
@@ -115,7 +117,7 @@ h3 {
 h4 {
   font-family: "SF Pro Display";
   font-weight: 600;
-  font-size: 23px;
+  font-size: 25px;
   line-height: 30px;
   color: black;
   letter-spacing: 0px;
@@ -124,7 +126,7 @@ h4 {
 h5 {
   font-family: "SF Pro Display";
   font-weight: 600;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 15px;
   color: black;
   letter-spacing: 0px;
@@ -133,7 +135,7 @@ h5 {
 h6 {
   font-family: "SF Pro Display";
   font-weight: 400;
-  font-size: 17px;
+  font-size: 13px;
   line-height: 15px;
   color: grey;
   font-weight: normal;
@@ -142,8 +144,7 @@ h6 {
 
 footer {
   margin-top: 150px;
-  padding: 50px;
-  background-color:rgb(235, 235, 235);
+  padding: 40px;
 }
 
 button {
@@ -205,23 +206,19 @@ width: 80%;
   width: 100%;
 }
 
-.name-top {
-  width: 50%;
-}
 
-.navigation {
-margin-bottom: 130px;
-width: 50%;
-}
+ .name-top {
+  width: 20%;
+ }
 
 
-.headertitle {
+/* .headertitle {
 margin-bottom: 40px;
 text-align: left;
-}
+} */
 
 .headerdescription {
-margin-bottom: 150px;
+margin-bottom: 200px;
 text-align: left;
 }
 
@@ -417,6 +414,133 @@ input {
     font-size: 50px;
   }
 } */
+
+
+
+
+
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .aboutimage {
